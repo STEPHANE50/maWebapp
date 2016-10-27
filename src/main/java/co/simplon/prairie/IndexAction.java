@@ -14,7 +14,13 @@ public class IndexAction {
 
     @Action("/")
     public String view() {
-        prenom = "Eric";
+        prenom = "Stephane";
         return "/index";
+    
+     @Action("/voisin")
+    public String view2() {
+        prenom = "voisin";
+        return "/index";
+
     }
 }

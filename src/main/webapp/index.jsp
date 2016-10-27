@@ -13,8 +13,7 @@
 					<p  align="center"> Date du jour :
 					<%= new Date() %>
 					</p>
-<%-- L'inclusion dynamique d'une page fonctionne par URL relative : --%>
-<jsp:include page="IndexAction"/>				
+					<p> J'affiche le prénom ${prenom}</p>
 	</body>
 
 </html>
