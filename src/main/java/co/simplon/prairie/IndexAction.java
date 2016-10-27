@@ -16,7 +16,7 @@ public class IndexAction {
     public String view() {
         prenom = "Stephane";
         return "/index";
-    
+    }
      @Action("/voisin")
     public String view2() {
         prenom = "voisin";
