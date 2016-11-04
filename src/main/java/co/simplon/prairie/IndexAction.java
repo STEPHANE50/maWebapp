@@ -4,8 +4,6 @@ import jodd.madvoc.meta.Action;
 import jodd.madvoc.meta.MadvocAction;
 import jodd.madvoc.meta.Out;
 
-import java.util.List;
-
 @MadvocAction
 public class IndexAction {
 
@@ -14,9 +12,10 @@ public class IndexAction {
 
     @Action("/")
     public String view() {
-        prenom = "Stephane";
+        prenom = "Stephane LEVASSEUR";
         return "/index";
     }
+    
      @Action("/voisin")
     public String view2() {
         prenom = "voisin";
